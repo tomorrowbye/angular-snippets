@@ -1,9 +1,10 @@
-# Change Log
+# Angular Snippets Changelog
 
-All notable changes to the "angular-snippets" extension will be documented in this file.
+## 0.0.2(2024-08-12)
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Modify CHANGELOG.md file.
 
-## [Unreleased]
+## 0.0.1(2024-08-12)
 
-- Initial release
+- Initial release of Angular snippets for TypeScript.
+- Added snippets for Angular components, directives, modules, pipes, services, guards, and tests.
