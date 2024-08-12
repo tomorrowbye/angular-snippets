@@ -1,0 +1,39 @@
+{
+  "name": "jt-angular-snippets",
+  "displayName": "Tomorrowbye Code Snippets",
+  "description": "Angular snippets for Visual Studio Code",
+  "version": "0.0.1",
+  "icon": "images/angular-shield.png",
+  "publisher": "johnTomorrowbye",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomorrowbye/angular-snippets.git"
+  },
+  "keywords": [
+    "angular",
+    "snippets",
+    "snippet",
+    "typescript"
+  ],
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      }
+    ]
+  }
+}
