@@ -2,7 +2,7 @@
   "name": "jt-angular-snippets",
   "displayName": "Tomorrowbye Code Snippets",
   "description": "Angular snippets for Visual Studio Code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "images/angular-shield.png",
   "publisher": "johnTomorrowbye",
   "repository": {
