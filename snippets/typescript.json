@@ -24,13 +24,14 @@
     "prefix": "ngs",
     "body": [
       "import { Injectable } from '@angular/core';",
+      "import { HttpClient } from '@angular/common/http';",
       "",
       "@Injectable({",
       "  providedIn: 'root'",
       "})",
-      "export class ${1:AppService} {",
+      "export class ${1:App}Service {",
       "",
-      "  constructor() { }",
+      "  constructor(private http: HttpClient) { }",
       "",
       "}"
     ],
@@ -49,7 +50,7 @@
       "  ],",
       "  providers: []",
       "})",
-      "export class ${1:NameModule} { }"
+      "export class ${1:Name}Module { }"
     ],
     "description": "Angular Module"
   },
